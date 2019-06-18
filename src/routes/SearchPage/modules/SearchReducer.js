@@ -1,8 +1,8 @@
-import { stateValueExtractor, constants, titles } from 'utils/'
-import { hitsModel, folderHitsModel } from 'models/'
-import { handleError } from 'routes/CoreLayout/modules/CoreLayout'
-import { startLoadingIndicator, stopLoadingIndicator } from 'routes/MainLayout/modules/MainLayout'
-import * as Regexes from 'utils/regexes'
+import { stateValueExtractor, constants, titles } from 'ambar-frontend/src/utils/'
+import { hitsModel, folderHitsModel } from 'ambar-frontend/src/models/'
+import { handleError } from 'ambar-frontend/src/routes/CoreLayout/modules/CoreLayout'
+import { startLoadingIndicator, stopLoadingIndicator } from 'ambar-frontend/src/routes/MainLayout/modules/MainLayout'
+import * as Regexes from 'ambar-frontend/src/utils/regexes'
 
 export const FILL_HITS = 'SEARCH.FILL_HITS'
 export const FILL_SEARCH_FOLDER_HITS = 'SEARCH.FILL_SEARCH_FOLDER_HITS'

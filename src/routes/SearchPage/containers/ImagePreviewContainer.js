@@ -4,7 +4,7 @@ import {
   toggleImagePreview
 } from '../modules/ImagePreview'
 
-import ImagePreview from 'components/Search/components/ImagePreview'
+import ImagePreview from 'ambar-frontend/src/components/Search/components/ImagePreview'
 
 const mapDispatchToProps = {
     toggle: toggleImagePreview

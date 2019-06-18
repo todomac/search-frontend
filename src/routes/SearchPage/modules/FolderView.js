@@ -1,7 +1,7 @@
-import { stateValueExtractor } from 'utils/'
-import { folderHitsModel } from 'models/'
-import { handleError } from 'routes/CoreLayout/modules/CoreLayout'
-import { startLoadingIndicator, stopLoadingIndicator } from 'routes/MainLayout/modules/MainLayout'
+import { stateValueExtractor } from 'ambar-frontend/src/utils/'
+import { folderHitsModel } from 'ambar-frontend/src/models/'
+import { handleError } from 'ambar-frontend/src/routes/CoreLayout/modules/CoreLayout'
+import { startLoadingIndicator, stopLoadingIndicator } from 'ambar-frontend/src/routes/MainLayout/modules/MainLayout'
 import 'whatwg-fetch'
 
 export const TOGGLE_NODE = 'FOLDER_VIEW.TOGGLE_NODE'

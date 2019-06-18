@@ -1,7 +1,7 @@
-import { stateValueExtractor } from 'utils/'
-import { hitsModel } from 'models/'
-import { handleError } from 'routes/CoreLayout/modules/CoreLayout'
-import { startLoadingIndicator, stopLoadingIndicator } from 'routes/MainLayout/modules/MainLayout'
+import { stateValueExtractor } from 'ambar-frontend/src/utils/'
+import { hitsModel } from 'ambar-frontend/src/models/'
+import { handleError } from 'ambar-frontend/src/routes/CoreLayout/modules/CoreLayout'
+import { startLoadingIndicator, stopLoadingIndicator } from 'ambar-frontend/src/routes/MainLayout/modules/MainLayout'
 
 export const START_STOP_HIGHLIGHT_LOADING = 'DETAILED_VIEW.START_STOP_HIGHLIGHT_LOADING'
 export const SET_CONTENT_HIGHLIGHT = 'DETAILED_VIEW.SET_CONTENT_HIGHLIGHT'

@@ -1,5 +1,5 @@
-import { handleError } from 'routes/CoreLayout/modules/CoreLayout'
-import { search, updateQuery } from 'routes/SearchPage/modules/SearchReducer'
+import { handleError } from 'ambar-frontend/src/routes/CoreLayout/modules/CoreLayout'
+import { search, updateQuery } from 'ambar-frontend/src/routes/SearchPage/modules/SearchReducer'
 
 export const UPDATE_SCROLLED_DOWN = 'SEARCH_PAGE.UPDATE_SCROLLED_DOWN'
 export const SET_SEARCH_RESULT_VIEW = 'SEARCH_PAGE.SET_SEARCH_RESULT_VIEW'

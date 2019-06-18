@@ -1,4 +1,4 @@
-import { constants } from 'utils'
+import { constants } from 'ambar-frontend/src/utils'
 import { ACTION_HANDLERS as DetailedViewActions } from './DetailedView'
 import { ACTION_HANDLERS as SearchPageActions } from './SearchPage'
 import { ACTION_HANDLERS as UploadModalActions } from './UploadModal'

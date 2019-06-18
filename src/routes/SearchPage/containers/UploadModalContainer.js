@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import { stateValueExtractor } from 'utils/'
+import { stateValueExtractor } from 'ambar-frontend/src/utils/'
 
 import {
   toggleUploadModal,
@@ -8,7 +8,7 @@ import {
   uploadFiles 
 } from '../modules/UploadModal'
 
-import UploadModal from 'components/Search/components/UploadFileModal'
+import UploadModal from 'ambar-frontend/src/components/Search/components/UploadFileModal'
 
 const mapDispatchToProps = {
   toggleModal: toggleUploadModal,

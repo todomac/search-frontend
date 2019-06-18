@@ -1,7 +1,7 @@
 import { connect } from 'react-redux'
-import { stateValueExtractor } from 'utils/'
+import { stateValueExtractor } from 'ambar-frontend/src/utils/'
 import { search, performSearchByPathToFile, performSearchByTag, performSearchByNamedEntity } from '../modules/SearchReducer'
-import StatisticsView from 'components/Search/components/Views/StatisticsView'
+import StatisticsView from 'ambar-frontend/src/components/Search/components/Views/StatisticsView'
 
 const mapDispatchToProps = {
   search,

@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import { stateValueExtractor } from 'utils/'
+import { stateValueExtractor } from 'ambar-frontend/src/utils/'
 
 import { toggleImagePreview } from '../modules/ImagePreview'
 import { addTagToFile, removeTagFromFile } from '../modules/TagsReducer'
@@ -14,7 +14,7 @@ import {
     search
 } from '../modules/SearchReducer'
 
-import DetailedView from 'components/Search/components/Views/DetailedView'
+import DetailedView from 'ambar-frontend/src/components/Search/components/Views/DetailedView'
 
 const mapDispatchToProps = {
     search,

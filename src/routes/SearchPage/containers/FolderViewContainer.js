@@ -3,7 +3,7 @@ import { stateValueExtractor } from 'utils/'
 import { toggleTreeNode, toggleAll } from '../modules/FolderView'
 import { search, performSearchByPathToFile } from '../modules/SearchReducer'
 import { toggleImagePreview } from '../modules/ImagePreview'
-import FolderView from 'components/Search/components/Views/FolderView'
+import FolderView from 'ambar-frontend/src/components/Search/components/Views/FolderView'
 
 const mapDispatchToProps = {
   search,

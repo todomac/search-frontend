@@ -1,6 +1,6 @@
-import { stateValueExtractor, errors } from 'utils'
-import { handleError } from 'routes/CoreLayout/modules/CoreLayout'
-import { startLoadingIndicator, stopLoadingIndicator } from 'routes/MainLayout/modules/MainLayout'
+import { stateValueExtractor, errors } from 'ambar-frontend/src/utils'
+import { handleError } from 'ambar-frontend/src/routes/CoreLayout/modules/CoreLayout'
+import { startLoadingIndicator, stopLoadingIndicator } from 'ambar-frontend/src/routes/MainLayout/modules/MainLayout'
 import 'whatwg-fetch'
 
 export const START_STOP_LOADING = 'STAT.START_STOP_LOADING'

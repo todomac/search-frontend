@@ -1,7 +1,7 @@
 import { connect } from 'react-redux'
 import { performSearchByQuery } from '../modules/SearchReducer'
-import { stateValueExtractor } from 'utils/'
-import EmptySearchResultsCardView from 'components/Search/components/EmptySearchResultsCard'
+import { stateValueExtractor } from 'ambar-frontend/src/utils/'
+import EmptySearchResultsCardView from 'ambar-frontend/src/components/Search/components/EmptySearchResultsCard'
 
 const mapDispatchToProps = {
     performSearchByQuery

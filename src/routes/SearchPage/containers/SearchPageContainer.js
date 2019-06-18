@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import { stateValueExtractor, constants } from 'utils/'
+import { stateValueExtractor, constants } from 'ambar-frontend/src/utils/'
 
 import { loadTags } from '../modules/TagsReducer'
 import { toggleUploadModal } from '../modules/UploadModal'
@@ -21,7 +21,7 @@ import {
   performSearchByTag
 } from '../modules/SearchReducer'
 
-import Search from 'components/Search'
+import Search from 'ambar-frontend/src/components/Search'
 
 const mapDispatchToProps = {
   search,

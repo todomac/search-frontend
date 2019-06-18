@@ -1,7 +1,7 @@
 import { connect } from 'react-redux'
 import { loadStatistics } from '../modules/StatisticsPage'
-import { stateValueExtractor } from 'utils/'
-import Statistics from 'components/Statistics'
+import { stateValueExtractor } from 'ambar-frontend/src/utils/'
+import Statistics from 'ambar-frontend/src/components/Statistics'
 
 const mapDispatchToProps = {    
     loadStatistics    
