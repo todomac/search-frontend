@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import { CardHeader } from 'material-ui/Card'
-import { files } from 'utils/'
+import { files } from 'ambar-frontend/src/utils/'
 import moment from 'moment'
-import { FileAvatar, ClickableFilePath, AuthorLabel, FileSizeLabel, UpdatedDateTimeLabel } from 'components/BasicComponents'
+import { FileAvatar, ClickableFilePath, AuthorLabel, FileSizeLabel, UpdatedDateTimeLabel } from 'ambar-frontend/src/components/BasicComponents'
 
 import classes from './DetailedCardHeader.scss'
 

@@ -1,7 +1,7 @@
 import React, { Component, PropTypes } from 'react'
 import MainMenu from './components/MainMenu'
 import RateUs from './components/RateUs'
-import { AmbarResponsiveLogo } from 'components/BasicComponents'
+import { AmbarResponsiveLogo } from 'ambar-frontend/src/components/BasicComponents'
 import AppBarTitle from './components/AppBarTitle'
 import AppBar from 'material-ui/AppBar'
 import MediaQuery from 'react-responsive'

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import moment from 'moment'
 import classes from './FolderView.scss'
-import EmptySearchResultsContainer from 'routes/SearchPage/containers/EmptySearchResultsContainer'
+import EmptySearchResultsContainer from 'ambar-frontend/src/routes/SearchPage/containers/EmptySearchResultsContainer'
 
 import { Intent, Icon, Button, Tree } from "@blueprintjs/core"
 

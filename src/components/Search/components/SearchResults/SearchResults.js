@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import { constants } from 'utils'
-import FolderViewContainer from 'routes/SearchPage/containers/FolderViewContainer'
-import TableViewContainer from 'routes/SearchPage/containers/TableViewContainer'
-import DetailedViewContainer from 'routes/SearchPage/containers/DetailedViewContainer'
-import StatisticsViewContainer from 'routes/SearchPage/containers/StatisticsViewContainer'
+import { constants } from 'ambar-frontend/src/utils'
+import FolderViewContainer from 'ambar-frontend/src/routes/SearchPage/containers/FolderViewContainer'
+import TableViewContainer from 'ambar-frontend/src/routes/SearchPage/containers/TableViewContainer'
+import DetailedViewContainer from 'ambar-frontend/src/routes/SearchPage/containers/DetailedViewContainer'
+import StatisticsViewContainer from 'ambar-frontend/src/routes/SearchPage/containers/StatisticsViewContainer'
 
 import classes from './SearchResults.scss'
 

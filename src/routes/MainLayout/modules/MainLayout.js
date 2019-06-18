@@ -1,6 +1,6 @@
-import { urls, titles, stateValueExtractor } from 'utils'
+import { urls, titles, stateValueExtractor } from 'ambar-frontend/src/utils'
 import { push } from 'react-router-redux'
-import { handleError } from 'routes/CoreLayout/modules/CoreLayout'
+import { handleError } from 'ambar-frontend/src/routes/CoreLayout/modules/CoreLayout'
 
 import 'whatwg-fetch'
 

@@ -1,4 +1,4 @@
-import { titles, stateValueExtractor, urls, constants } from 'utils'
+import { titles, stateValueExtractor, urls, constants } from 'ambar-frontend/src/utils'
 import 'whatwg-fetch'
 
 const CHANGE_FIELD = 'CORE.CHANGE_FIELD'

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { FullScreenLoader, NotificationIndicator } from 'components/BasicComponents'
+import { FullScreenLoader, NotificationIndicator } from 'ambar-frontend/src/components/BasicComponents'
 import classes from './CoreLayout.scss'
 import '../../../node_modules/@blueprintjs/core/dist/blueprint.css'
 import '../../styles/core.scss'

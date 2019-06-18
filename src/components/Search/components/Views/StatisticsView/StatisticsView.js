@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import { files } from 'utils'
-import EmptySearchResultsContainer from 'routes/SearchPage/containers/EmptySearchResultsContainer'
+import { files } from 'ambar-frontend/src/utils'
+import EmptySearchResultsContainer from 'ambar-frontend/src/routes/SearchPage/containers/EmptySearchResultsContainer'
 import TagsWithCount from './components/TagWithCount'
 import ExtensionsPieChart from './components/ExtensionsPieChart'
 import classes from './StatisticsView.scss'

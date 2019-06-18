@@ -1,5 +1,5 @@
 import moment from 'moment'
-import { dates, urls } from 'utils/'
+import { dates, urls } from 'ambar-frontend/src/utils/'
 
 const getCawlerJson = (crawler) => JSON.stringify({
     ...crawler,

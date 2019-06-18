@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 import ClearIcon from 'material-ui/svg-icons/content/clear'
-import { LoadingIndicator } from 'components/BasicComponents'
+import { LoadingIndicator } from 'ambar-frontend/src/components/BasicComponents'
 import classes from './Tag.scss'
 
 const Tag = ({ tagName, tagType, onRemove, onClick, isHighlighted, isFetching, showRemoveIcon = true }) => {

@@ -4,9 +4,9 @@ import { List, ListItem } from 'material-ui/List'
 import UploadFileIcon from 'material-ui/svg-icons/file/file-upload'
 import Subheader from 'material-ui/Subheader'
 import Divider from 'material-ui/Divider'
-import { TagsInput } from 'components/BasicComponents'
+import { TagsInput } from 'ambar-frontend/src/components/BasicComponents'
 import classes from './SideMenu.scss'
-import { constants } from 'utils'
+import { constants } from 'ambar-frontend/src/utils'
 
 const listItemStyle = { fontSize: '15px', padding: '7px 7px 7px 23px' }
 const StyledListItem = (props) => <ListItem innerDivStyle={listItemStyle} {...props} />

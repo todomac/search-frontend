@@ -10,7 +10,7 @@ import {
     TableRowColumn,
 } from 'material-ui/Table'
 
-import EmptySearchResultsContainer from 'routes/SearchPage/containers/EmptySearchResultsContainer'
+import EmptySearchResultsContainer from 'ambar-frontend/src/routes/SearchPage/containers/EmptySearchResultsContainer'
 import TableViewRow from './components/TableRow'
 import classes from './TableView.scss'
 

@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import { stateValueExtractor } from 'utils/'
+import { stateValueExtractor } from 'ambar-frontend/src/utils/'
 import {
   postConfigRequest,
   checkIfAllowed,

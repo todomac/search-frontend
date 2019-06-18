@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
 import { loadConfig, setPageTitle, closeNotification } from '../modules/CoreLayout'
-import CoreLayout from 'layouts/CoreLayout/CoreLayout'
+import CoreLayout from 'ambar-frontend/src/layouts/CoreLayout/CoreLayout'
 
 const mapDispatchToProps = {
   loadConfig,

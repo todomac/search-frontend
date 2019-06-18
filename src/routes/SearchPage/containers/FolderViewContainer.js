@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import { stateValueExtractor } from 'utils/'
+import { stateValueExtractor } from 'ambar-frontend/src/utils/'
 import { toggleTreeNode, toggleAll } from '../modules/FolderView'
 import { search, performSearchByPathToFile } from '../modules/SearchReducer'
 import { toggleImagePreview } from '../modules/ImagePreview'

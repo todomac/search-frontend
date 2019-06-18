@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { LoadingIndicator, TagsInput } from 'components/BasicComponents'
+import { LoadingIndicator, TagsInput } from 'ambar-frontend/src/components/BasicComponents'
 
 import { Card, CardActions, CardText, CardTitle } from 'material-ui/Card'
 import MediaQuery from 'react-responsive'
@@ -9,7 +9,7 @@ import FileDownloadIcon from 'material-ui/svg-icons/file/file-download'
 import DeleteIcon from 'material-ui/svg-icons/action/delete'
 import UndoIcon from 'material-ui/svg-icons/content/undo'
 import DetailedCardHeader from './components/DetailedCardHeader'
-import { files } from 'utils/'
+import { files } from 'ambar-frontend/src/utils/'
 
 import classes from './DetailedCard.scss'
 

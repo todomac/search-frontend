@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import EmptySearchResultsContainer from 'routes/SearchPage/containers/EmptySearchResultsContainer'
+import EmptySearchResultsContainer from 'ambar-frontend/src/routes/SearchPage/containers/EmptySearchResultsContainer'
 import DetailedCard from './components/DetailedCard'
 import classes from './DetailedView.scss'
 

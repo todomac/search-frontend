@@ -6,7 +6,7 @@ import DeleteIcon from 'material-ui/svg-icons/action/delete'
 import IconButton from 'material-ui/IconButton'
 import UndoIcon from 'material-ui/svg-icons/content/undo'
 
-import { files } from 'utils/'
+import { files } from 'ambar-frontend/src/utils/'
 import moment from 'moment'
 import {
     Table,

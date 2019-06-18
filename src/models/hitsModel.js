@@ -1,5 +1,5 @@
 import moment from 'moment'
-import { dates, urls } from 'utils/'
+import { dates, urls } from 'ambar-frontend/src/utils/'
 
 export const fromApi = (resp) => {
     let hits = new Map()

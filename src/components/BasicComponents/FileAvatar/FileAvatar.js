@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Avatar from 'material-ui/Avatar'
-import { files } from 'utils/'
+import { files } from 'ambar-frontend/src/utils/'
 
 import classes from './FileAvatar.scss'
 

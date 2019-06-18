@@ -1,11 +1,11 @@
 import { connect } from 'react-redux'
-import { stateValueExtractor } from 'utils/'
+import { stateValueExtractor } from 'ambar-frontend/src/utils/'
 import {
   loadPipelineLog,
   setSettingsModalOpen,
 } from '../modules/SettingsPage'
 
-import Settings from 'components/Settings'
+import Settings from 'ambar-frontend/src/components/Settings'
 
 const mapDispatchToProps = {
   loadPipelineLog,

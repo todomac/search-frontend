@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import { titles } from 'utils/'
+import { titles } from 'ambar-frontend/src/utils/'
 
 import { SearchResults, ImagePreview,  SearchInput, SideMenu } from './components'
-import { InfiniteScroll } from 'components/BasicComponents'
-import UploadContainer from 'routes/SearchPage/containers/UploadModalContainer'
-import ImagePreviewContainer from 'routes/SearchPage/containers/ImagePreviewContainer'
+import { InfiniteScroll } from 'ambar-frontend/src/components/BasicComponents'
+import UploadContainer from 'ambar-frontend/src/routes/SearchPage/containers/UploadModalContainer'
+import ImagePreviewContainer from 'ambar-frontend/src/routes/SearchPage/containers/ImagePreviewContainer'
 
 import { cyan100, cyan300, cyan400 } from 'material-ui/styles/colors'
 import MoreHoriz from 'material-ui/svg-icons/navigation/more-horiz'

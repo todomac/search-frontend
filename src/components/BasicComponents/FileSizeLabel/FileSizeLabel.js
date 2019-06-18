@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { files } from 'utils/'
+import { files } from 'ambar-frontend/src/utils/'
 import HighlightedSpan from '../HighlightedSpan'
 
 import classes from './FileSizeLabel.scss'
