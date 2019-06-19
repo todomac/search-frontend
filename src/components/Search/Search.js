@@ -17,7 +17,7 @@ import Dialog from 'material-ui/Dialog'
 
 // import classes from './Search.scss'
 
-const Desktop = ({ children }) => <MediaQuery query='(min-width: 1024px)' children={children} />
+const Desktop = ({ children }) => { return <MediaQuery query='(min-width: 1024px)' children={children} />;}
 
 class Search extends Component {
 
