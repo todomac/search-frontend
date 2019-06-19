@@ -15,7 +15,7 @@ import FlatButton from 'material-ui/FlatButton'
 
 import Dialog from 'material-ui/Dialog'
 
-import classes from './Search.scss'
+// import classes from './Search.scss'
 
 const Desktop = ({ children }) => <MediaQuery query='(min-width: 1024px)' children={children} />
 
