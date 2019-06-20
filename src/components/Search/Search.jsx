@@ -25,8 +25,6 @@ class Desktop extends Component {
 
 class Search extends Component {
 
-    timeoutId = null
-
     componentDidMount() {
         const { setPageTitle, setAppHeader, loadTags, search, searchQuery, setQueryFromGetParam, setQuery, localization } = this.props
 
