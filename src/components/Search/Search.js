@@ -18,7 +18,7 @@ import Dialog from 'material-ui/Dialog'
 class Desktop extends Component {
   render(){
       return (
-        <MediaQuery query='(min-width: 1024px)' children={this.props.children} />
+        <div>{'hi'}</div>
       )
   }  
 }
