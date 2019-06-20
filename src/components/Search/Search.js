@@ -15,8 +15,6 @@ import FlatButton from 'material-ui/FlatButton'
 
 import Dialog from 'material-ui/Dialog'
 
-// import classes from './Search.scss'
-
 class Desktop extends Component {
   render(){
       return (
