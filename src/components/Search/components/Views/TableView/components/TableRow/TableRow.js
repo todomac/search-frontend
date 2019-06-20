@@ -16,7 +16,7 @@ import {
     TableRow,
     TableRowColumn,
 } from 'material-ui/Table'
-import { FileAvatar, TagsInput, ClickableFilePath, AuthorLabel, FileSizeLabel, UpdatedDateTimeLabel } from 'components/BasicComponents'
+import { FileAvatar, TagsInput, ClickableFilePath, AuthorLabel, FileSizeLabel, UpdatedDateTimeLabel } from 'ambar-frontend/src/components/BasicComponents'
 
 import classes from './TableRow.scss'
 

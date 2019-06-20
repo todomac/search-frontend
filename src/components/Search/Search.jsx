@@ -15,13 +15,9 @@ import FlatButton from 'material-ui/FlatButton'
 
 import Dialog from 'material-ui/Dialog'
 
-class Desktop extends Component {
-  render(){
-      return (
-        React.createElement('div', null, `stuff`)
-      )
-  }  
-}
+import classes from './Search.scss'
+
+const Desktop = ({ children }) => <MediaQuery query='(min-width: 1024px)' children={children} />
 
 class Search extends Component {
 
