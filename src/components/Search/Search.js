@@ -18,7 +18,7 @@ import Dialog from 'material-ui/Dialog'
 class Desktop extends Component {
   render(){
       return (
-        <div>{'hi'}</div>
+        React.createElement('div', null, `stuff`);
       )
   }  
 }
