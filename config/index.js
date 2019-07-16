@@ -1,7 +1,7 @@
 /* eslint key-spacing:0 spaced-comment:0 */
 import path from 'path'
 import _debug from 'debug'
-import { argv } from 'yargs'
+import { argv } from 'yargs/yargs'
 import ip from 'ip'
 
 const localip = ip.address()
