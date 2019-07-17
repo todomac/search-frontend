@@ -10,6 +10,8 @@ import {
   setSearchResultView
 } from '../modules/SearchPage'
 
+console.log('started')
+
 import {
   setQuery,
   search,
@@ -21,7 +23,12 @@ import {
   performSearchByTag
 } from '../modules/SearchReducer'
 
+console.log('imported search functions')
+
+
 import Search from 'ambar-frontend/src/components/Search'
+
+console.log('imported search components')
 
 const mapDispatchToProps = {
   search,
@@ -54,5 +61,7 @@ const mapStateToProps = (state) => {
     localization: stateValueExtractor.getLocalization(state)    
   })
 }
+
+console.log('mapped state to props')
 
 export default connect(mapStateToProps, mapDispatchToProps)(Search)
