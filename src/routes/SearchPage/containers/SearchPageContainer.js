@@ -4,7 +4,7 @@ import { stateValueExtractor, constants } from 'ambar-frontend/src/utils/'
 import { loadTags } from '../modules/TagsReducer'
 import { toggleUploadModal } from '../modules/UploadModal'
 import _debug from 'debug'
-const debug = _debug("app:webpack:config")
+const debug = _debug("app:searchpagecontainer")
 
 
 import {
