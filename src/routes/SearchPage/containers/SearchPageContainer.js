@@ -3,6 +3,9 @@ import { stateValueExtractor, constants } from 'ambar-frontend/src/utils/'
 
 import { loadTags } from '../modules/TagsReducer'
 import { toggleUploadModal } from '../modules/UploadModal'
+import _debug from 'debug'
+const debug = _debug("app:webpack:config")
+
 
 import {
   setScrolledDown,  
@@ -10,7 +13,7 @@ import {
   setSearchResultView
 } from '../modules/SearchPage'
 
-console.log('started')
+debug('started')
 
 import {
   setQuery,
@@ -23,12 +26,12 @@ import {
   performSearchByTag
 } from '../modules/SearchReducer'
 
-console.log('imported search functions')
+debug('imported search functions')
 
 
 import Search from 'ambar-frontend/src/components/Search'
 
-console.log('imported search components')
+debug('imported search components')
 
 const mapDispatchToProps = {
   search,
@@ -62,6 +65,6 @@ const mapStateToProps = (state) => {
   })
 }
 
-console.log('mapped state to props')
+debug('mapped state to props')
 
 export default connect(mapStateToProps, mapDispatchToProps)(Search)
