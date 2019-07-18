@@ -1,8 +1,8 @@
 import { connect } from 'react-redux'
 import { stateValueExtractor, constants } from 'ambar-frontend/src/utils/'
 
-import { loadTags } from '../modules/TagsReducer'
-import { toggleUploadModal } from '../modules/UploadModal'
+import { loadTags } from 'ambar-frontend/src/routes/SearchPage/modules/TagsReducer'
+import { toggleUploadModal } from 'ambar-frontend/src/routes/SearchPage/modules/UploadModal'
 import _debug from 'debug'
 const debug = _debug("app:searchpagecontainer")
 
@@ -11,7 +11,7 @@ import {
   setScrolledDown,  
   setQueryFromGetParam,
   setSearchResultView
-} from '../modules/SearchPage'
+} from 'ambar-frontend/src/routes/SearchPage/modules/SearchPage'
 
 debug('started')
 
@@ -24,7 +24,7 @@ import {
   performSearchByWhen,
   performSearchByShow,
   performSearchByTag
-} from '../modules/SearchReducer'
+} from 'ambar-frontend/src/routes/SearchPage/modules/SearchReducer'
 
 debug('imported search functions')
 
