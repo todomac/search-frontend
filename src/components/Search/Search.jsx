@@ -72,7 +72,6 @@ class Search extends Component {
          } = this.props
 
         return (
-            <ReactReduxContext.Consumer>
             <div style={{ height: '100%' }}>
                 <Desktop>
                     <div style={{
@@ -131,7 +130,6 @@ class Search extends Component {
                 <UploadContainer />
                 <ImagePreviewContainer />
             </div>
-            </ReactReduxContext.Consumer>
         )
     }
 }
