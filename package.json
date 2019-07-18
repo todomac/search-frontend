@@ -63,6 +63,7 @@
   "author": "RD17 <hello@ambar.cloud> (https://ambar.cloud)",
   "license": "Fair Source",
   "dependencies": {
+    "@blueprintjs/core": "^1.32.0",
     "babel-cli": "^6.5.1",
     "babel-core": "^6.3.17",
     "babel-loader": "^6.2.0",
