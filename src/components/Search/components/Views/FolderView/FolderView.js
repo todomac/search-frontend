@@ -3,7 +3,8 @@ import moment from 'moment'
 import classes from './FolderView.scss'
 import EmptySearchResultsContainer from 'ambar-frontend/src/routes/SearchPage/containers/EmptySearchResultsContainer'
 
-import { Intent, Icon, Button, Tree } from "@blueprintjs/core"
+// import { Intent, Icon, Button, Tree } from "@blueprintjs/core"
+import {Button} from 'semantic-ui-react'
 
 class FolderView extends Component {
     componentDidMount() {
@@ -43,7 +44,7 @@ class FolderView extends Component {
                     key: folderHit.path,
                     hasCaret: folderHit.childNodes.length > 0,
                     isExpanded: folderHit.isExpanded,
-                    iconName: folderHit.type == 'folder'
+                    icon: folderHit.type == 'folder'
                         ? folderHit.isExpanded
                             ? 'pt-icon-folder-open'
                             : 'pt-icon-folder-close'
@@ -60,15 +61,15 @@ class FolderView extends Component {
                         {folderHit.type !== 'file' && 
                             <Button 
                                 className='pt-minimal' 
-                                iconName='pt-icon-search'
-                                title={localization.searchPage.performSearchByFolderLabel} 
+                                icon='pt-icon-search'
+                                label={localization.searchPage.performSearchByFolderLabel} 
                                 onClick={onSearchClick} 
                         />}                      
                         {folderHit.type === 'file' && folderHit.thumbAvailable && 
                             <Button 
                                 className='pt-minimal' 
-                                iconName='pt-icon-media' 
-                                title={localization.searchPage.imagePreviewLabel} 
+                                icon='pt-icon-media' 
+                                label={localization.searchPage.imagePreviewLabel} 
                                 onClick={() => toggleImagePreview(urls.ambarWebApiGetThumbnail(folderHit.sha256))} 
                         />}
                     </div>,
@@ -83,15 +84,16 @@ class FolderView extends Component {
         return (
             <div >
                 <div className={classes.folderViewButtonsContainer}>
-                    <Button className='pt-minimal' iconName='pt-icon-expand-all' onClick={() => toggleAll(true)}>{localization.searchPage.expandAllLabel}</Button>
-                    <Button className='pt-minimal' iconName='pt-icon-collapse-all' onClick={() => toggleAll(false)}>{localization.searchPage.collapseAllLabel}</Button>
+                    <Button className='pt-minimal' icon='pt-icon-expand-all' onClick={() => toggleAll(true)}>{localization.searchPage.expandAllLabel}</Button>
+                    <Button className='pt-minimal' icon='pt-icon-collapse-all' onClick={() => toggleAll(false)}>{localization.searchPage.collapseAllLabel}</Button>
                 </div>
                 <div className={classes.folderViewTreeContainer}>
-                    <Tree
+                    
+                    { 'tree goes here' /* <Tree
                         contents={treeContents}
                         onNodeCollapse={(node) => toggleTreeNode(node.key)}
                         onNodeExpand={(node) => toggleTreeNode(node.key)}
-                    />
+                    /> */}
                 </div>
             </div>
         )
