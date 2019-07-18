@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { titles } from 'ambar-frontend/src/utils/'
 
+import { ReactReduxContext } from 'react-redux'
 import { SearchResults, ImagePreview,  SearchInput, SideMenu } from './components'
 import { InfiniteScroll } from 'ambar-frontend/src/components/BasicComponents'
 import UploadContainer from 'ambar-frontend/src/routes/SearchPage/containers/UploadModalContainer'
@@ -71,6 +72,7 @@ class Search extends Component {
          } = this.props
 
         return (
+            <ReactReduxContext.Consumer>
             <div style={{ height: '100%' }}>
                 <Desktop>
                     <div style={{
@@ -129,6 +131,7 @@ class Search extends Component {
                 <UploadContainer />
                 <ImagePreviewContainer />
             </div>
+            </ReactReduxContext.Consumer>
         )
     }
 }

@@ -3,17 +3,12 @@ import { stateValueExtractor, constants } from 'ambar-frontend/src/utils/'
 
 import { loadTags } from 'ambar-frontend/src/routes/SearchPage/modules/TagsReducer'
 import { toggleUploadModal } from 'ambar-frontend/src/routes/SearchPage/modules/UploadModal'
-import _debug from 'debug'
-const debug = _debug("app:searchpagecontainer")
-
 
 import {
   setScrolledDown,  
   setQueryFromGetParam,
   setSearchResultView
 } from 'ambar-frontend/src/routes/SearchPage/modules/SearchPage'
-
-debug('started')
 
 import {
   setQuery,
@@ -26,12 +21,8 @@ import {
   performSearchByTag
 } from 'ambar-frontend/src/routes/SearchPage/modules/SearchReducer'
 
-debug('imported search functions')
-
 
 import Search from 'ambar-frontend/src/components/Search'
-
-debug('imported search components')
 
 const mapDispatchToProps = {
   search,
@@ -64,7 +55,5 @@ const mapStateToProps = (state) => {
     localization: stateValueExtractor.getLocalization(state)    
   })
 }
-
-debug('mapped state to props')
 
 export default connect(mapStateToProps, mapDispatchToProps)(Search)
