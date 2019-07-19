@@ -10,7 +10,7 @@ import {
   setSearchResultView
 } from 'ambar-frontend/src/routes/SearchPage/modules/SearchPage'
 
-import {withRouter } from 'react-redux'
+import { withRouter } from 'react-router-dom'
 
 import {
   setQuery,
