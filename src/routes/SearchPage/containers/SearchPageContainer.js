@@ -10,6 +10,8 @@ import {
   setSearchResultView
 } from 'ambar-frontend/src/routes/SearchPage/modules/SearchPage'
 
+import {withRouter } from 'react-redux'
+
 import {
   setQuery,
   search,
@@ -56,4 +58,4 @@ const mapStateToProps = (state) => {
   })
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Search)
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(Search))
